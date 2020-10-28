@@ -20,23 +20,19 @@ class TopPeople extends StatelessWidget {
           ),
           Container(
             height: 135,
-            child: Flexible(
-              fit: FlexFit.loose,
-              flex: 1,
-              child: ListView.builder(
-                scrollDirection: Axis.horizontal,
-                itemCount: 20,
-                itemBuilder: (context, index) {
-                  return Padding(
-                    padding: const EdgeInsets.only(
-                      top: 10.0,
-                      bottom: 20,
-                      right: 15,
-                    ),
-                    child: PeopleCard(),
-                  );
-                },
-              ),
+            child: ListView.builder(
+              scrollDirection: Axis.horizontal,
+              itemCount: 20,
+              itemBuilder: (context, index) {
+                return Padding(
+                  padding: const EdgeInsets.only(
+                    top: 10.0,
+                    bottom: 20,
+                    right: 15,
+                  ),
+                  child: PeopleCard(),
+                );
+              },
             ),
           ),
         ],
