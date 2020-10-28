@@ -21,10 +21,8 @@ class PeopleCard extends StatelessWidget {
             children: [
               Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: CircleAvatar(
-                  backgroundImage: NetworkImage(
-                      'https://avatars0.githubusercontent.com/u/41117038?s=460&u=a911d0593b95989947e7f41a423010944d06b01f&v=4'),
-                ),
+                child:
+                    CircleAvatar(backgroundImage: AssetImage('assets/aaa.jpg')),
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),

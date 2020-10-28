@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:xpert/common_widgets/labelText.dart';
-import 'package:xpert/common_widgets/peopleCart.dart';
+import 'package:xpert/common_widgets/peopleCard.dart';
 
 class TopPeople extends StatelessWidget {
   const TopPeople({
